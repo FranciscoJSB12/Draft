@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    font-size: 2rem;
+}
+.nav {
+    height: 15%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section {
+    height: 72.5%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.article {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    height: 12.5%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
